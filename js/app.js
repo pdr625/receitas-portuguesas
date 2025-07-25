@@ -1,11 +1,12 @@
-// Carrega os dados do JSON (caminho absoluto para GitHub Pages)
-fetch('https://pdr625.github.io/receitas-portuguesas/data/receitas.json')
+fetch('data/receitas.json')
   .then(response => response.json())
   .then(receitas => {
-    // Função para renderizar receitas
-    function renderReceitas(receitasFiltradas) {
-      const container = document.getElementById('receitas-container');
-      container.innerHTML = receitasFiltradas.map(receita => `
+    const container = document.getElementById('receitas-container');
+    const filtroCategoria = document.getElementById('filtro-categoria');
+    const barraBusca = document.getElementById('busca');
+
+    function renderReceitas(receitas) {
+      container.innerHTML = receitas.map(receita => `
         <div class="receita">
           <h2>${receita.Nome}</h2>
           <p><strong>Ingredientes:</strong> ${receita.Ingredientes.join(', ')}</p>
@@ -14,16 +15,29 @@ fetch('https://pdr625.github.io/receitas-portuguesas/data/receitas.json')
       `).join('');
     }
 
-    // Filtro inicial (mostra todas)
-    renderReceitas(receitas);
-
-    // Filtro por categoria
-    document.getElementById('filtro-categoria').addEventListener('change', function() {
-      const categoria = this.value;
-      const receitasFiltradas = categoria === 'all' 
-        ? receitas 
-        : receitas.filter(r => r.Categoria === categoria);
-      renderReceitas(receitasFiltradas);
+    // Filtros
+    filtroCategoria.addEventListener('change', () => {
+      const categoria = filtroCategoria.value;
+      const termoBusca = barraBusca.value.toLowerCase();
+      filtrarReceitas(categoria, termoBusca);
     });
-  })
-  .catch(error => console.error('Erro ao carregar receitas:', error));
+
+    barraBusca.addEventListener('input', () => {
+      const categoria = filtroCategoria.value;
+      const termoBusca = barraBusca.value.toLowerCase();
+      filtrarReceitas(categoria, termoBusca);
+    });
+
+    function filtrarReceitas(categoria, termoBusca) {
+      let filtradas = receitas;
+      if (categoria !== 'all') filtradas = filtradas.filter(r => r.Categoria === categoria);
+      if (termoBusca) {
+        filtradas = filtradas.filter(r => 
+          r.Nome.toLowerCase().includes(termoBusca) || 
+          r.Ingredientes.some(i => i.toLowerCase().includes(termoBusca))
+      }
+      renderReceitas(filtradas);
+    }
+
+    renderReceitas(receitas); // Exibe todas inicialmente
+  });
