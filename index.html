@@ -7,6 +7,20 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- Interface completa no Pastebin -->
+  <header>
+    <h1>🍽️ Receitas Portuguesas</h1>
+    <div class="filtros">
+      <select id="filtro-categoria">
+        <option value="all">Todas Categorias</option>
+        <option value="Peixe">Peixe</option>
+        <option value="Carne">Carne</option>
+        <option value="Sopa">Sopa</option>
+        <option value="Sobremesa">Sobremesa</option>
+      </select>
+      <input type="text" id="busca" placeholder="Buscar receita...">
+    </div>
+  </header>
+  <main id="receitas-container"></main>
+  <script src="js/app.js"></script>
 </body>
 </html>
