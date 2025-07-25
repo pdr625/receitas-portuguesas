@@ -5,18 +5,1316 @@
     "Categoria": "Peixe",
     "Dificuldade": "Média",
     "Tempo": "40 min",
-    "Ingredientes": ["400g bacalhau", "500g batata palha", "6 ovos"],
-    "ModoPreparo": ["1. Refogue cebola e alho.", "2. Adicione o bacalhau desfiado."],
-    "Regiao": "Lisboa"
+    "Ingredientes": [
+      "400g de bacalhau dessalgado",
+      "500g de batata palha",
+      "6 ovos",
+      "2 cebolas",
+      "4 dentes de alho",
+      "Azeite, salsa, sal e pimenta"
+    ],
+    "ModoPreparo": [
+      "1. Refogue a cebola e o alho no azeite até dourarem.",
+      "2. Adicione o bacalhau desfiado e cozinhe por 5 minutos.",
+      "3. Junte a batata palha e misture bem.",
+      "4. Acrescente os ovos batidos e mexa até ficarem cremosos.",
+      "5. Finalize com salsa picada."
+    ],
+    "Regiao": "Lisboa",
+    "Notas": "Servir com azeitonas."
   },
+
   {
     "id": 2,
+    "Nome": "Bacalhau com Natas",
+    "Categoria": "Peixe",
+    "Dificuldade": "Média",
+    "Tempo": "50 min",
+    "Ingredientes": [
+      "500g de bacalhau dessalgado",
+      "3 batatas médias",
+      "2 cebolas",
+      "2 dentes de alho",
+      "200ml de natas",
+      "Queijo ralado"
+    ],
+    "ModoPreparo": [
+      "1. Cozinhe o bacalhau e desfie.",
+      "2. Frite as batatas em rodelas.",
+      "3. Refogue cebola e alho, junte o bacalhau e as natas.",
+      "4. Coloque em camadas num refratário e leve ao forno."
+    ],
+    "Regiao": "Nacional",
+    "Notas": "Gratinar com queijo ralado."
+  },
+
+  {
+    "id": 3,
+    "Nome": "Caldeirada de Peixe",
+    "Categoria": "Peixe",
+    "Dificuldade": "Média",
+    "Tempo": "1h",
+    "Ingredientes": [
+      "500g de peixe misto (robalo, dourada, congro)",
+      "3 batatas",
+      "2 cebolas",
+      "2 tomates",
+      "1 pimento verde",
+      "Azeite, vinho branco, louro"
+    ],
+    "ModoPreparo": [
+      "1. Disponha os legumes em camadas numa panela.",
+      "2. Acrescente o peixe e regue com vinho branco.",
+      "3. Cozinhe em lume brando por 30 minutos."
+    ],
+    "Regiao": "Litoral",
+    "Notas": "Servir com coentros frescos."
+  },
+
+  {
+    "id": 4,
+    "Nome": "Arroz de Marisco",
+    "Categoria": "Peixe",
+    "Dificuldade": "Difícil",
+    "Tempo": "1h15",
+    "Ingredientes": [
+      "300g de marisco misto",
+      "300g de arroz carolino",
+      "1 cebola",
+      "3 dentes de alho",
+      "1 tomate",
+      "Caldo de peixe, coentros"
+    ],
+    "ModoPreparo": [
+      "1. Refogue alho, cebola e tomate.",
+      "2. Junte o marisco e o arroz.",
+      "3. Adicione o caldo quente e cozinhe em lume brando."
+    ],
+    "Regiao": "Algarve",
+    "Notas": "Finalizar com coentros picados."
+  },
+
+  {
+    "id": 5,
+    "Nome": "Açorda de Marisco",
+    "Categoria": "Peixe",
+    "Dificuldade": "Média",
+    "Tempo": "45 min",
+    "Ingredientes": [
+      "200g de marisco cozido",
+      "200g de pão alentejano",
+      "4 dentes de alho",
+      "1,5L de água",
+      "Coentros, ovo escalfado",
+      "Azeite e sal"
+    ],
+    "ModoPreparo": [
+      "1. Ferva água com alho e sal.",
+      "2. Adicione o pão aos poucos.",
+      "3. Junte o marisco e os coentros.",
+      "4. Sirva com ovo escalfado."
+    ],
+    "Regiao": "Alentejo",
+    "Notas": "Regar com azeite virgem."
+  },
+
+  {
+    "id": 6,
+    "Nome": "Sardinhas Assadas",
+    "Categoria": "Peixe",
+    "Dificuldade": "Fácil",
+    "Tempo": "20 min",
+    "Ingredientes": [
+      "12 sardinhas frescas",
+      "Sal grosso",
+      "Limão",
+      "Pimento vermelho"
+    ],
+    "ModoPreparo": [
+      "1. Tempere as sardinhas com sal.",
+      "2. Grelhe em brasa vigorosa 3-4 minutos de cada lado.",
+      "3. Sirva com pimento assado e limão."
+    ],
+    "Regiao": "Nacional",
+    "Notas": "Acompanhar com salada de pimentos."
+  },
+
+  {
+    "id": 7,
+    "Nome": "Polvo à Lagareiro",
+    "Categoria": "Peixe",
+    "Dificuldade": "Média",
+    "Tempo": "1h30",
+    "Ingredientes": [
+      "1 polvo médio (1,5kg)",
+      "6 batatas pequenas",
+      "4 dentes de alho",
+      "Azeite virgem",
+      "Louro, sal e pimenta"
+    ],
+    "ModoPreparo": [
+      "1. Cozinhe o polvo em água com sal até ficar macio.",
+      "2. Asse as batatas com casca.",
+      "3. Coloque tudo num tabuleiro, regue com azeite e alho e leve ao forno."
+    ],
+    "Regiao": "Beira Litoral",
+    "Notas": "Servir com azeite bem generoso."
+  },
+
+  {
+    "id": 8,
+    "Nome": "Peixe Espada Preto com Banana",
+    "Categoria": "Peixe",
+    "Dificuldade": "Fácil",
+    "Tempo": "30 min",
+    "Ingredientes": [
+      "4 postas de peixe-espada preto",
+      "2 bananas",
+      "Manteiga",
+      "Limão",
+      "Alho, salsa"
+    ],
+    "ModoPreparo": [
+      "1. Tempere o peixe com alho e limão.",
+      "2. Grelhe o peixe e as bananas em manteiga.",
+      "3. Regue com molho de manteiga e salsa."
+    ],
+    "Regiao": "Madeira",
+    "Notas": "Acompanhar com milho frito."
+  },
+
+  {
+    "id": 9,
+    "Nome": "Arroz de Tamboril",
+    "Categoria": "Peixe",
+    "Dificuldade": "Média",
+    "Tempo": "50 min",
+    "Ingredientes": [
+      "500g de tamboril",
+      "300g de arroz",
+      "1 cebola",
+      "2 tomates",
+      "Pimentão doce",
+      "Camarão, coentros"
+    ],
+    "ModoPreparo": [
+      "1. Refogue os temperos e junte o peixe em postas.",
+      "2. Acrescente o arroz e o caldo de peixe.",
+      "3. Cozinhe em lume brando."
+    ],
+    "Regiao": "Norte",
+    "Notas": "Finalizar com camarões e coentros."
+  },
+
+  {
+    "id": 10,
+    "Nome": "Lulas Recheadas",
+    "Categoria": "Peixe",
+    "Dificuldade": "Difícil",
+    "Tempo": "1h15",
+    "Ingredientes": [
+      "4 lulas grandes",
+      "200g de linguiça",
+      "1 cebola",
+      "2 ovos",
+      "Salsa, pão ralado"
+    ],
+    "ModoPreparo": [
+      "1. Limpe as lulas mantendo o corpo inteiro.",
+      "2. Prepare o recheio com linguiça, ovos e temperos.",
+      "3. Recheie as lulas e cozinhe em molho de tomate."
+    ],
+    "Regiao": "Algarve",
+    "Notas": "Servir com arroz branco."
+  },
+
+  {
+    "id": 11,
+    "Nome": "Bacalhau à Gomes de Sá",
+    "Categoria": "Peixe",
+    "Dificuldade": "Média",
+    "Tempo": "1h",
+    "Ingredientes": [
+      "500g de bacalhau dessalgado",
+      "4 batatas",
+      "2 cebolas",
+      "2 ovos cozidos",
+      "Azeitonas pretas",
+      "Azeite, salsa"
+    ],
+    "ModoPreparo": [
+      "1. Cozinhe o bacalhau e desfie.",
+      "2. Frite as batatas em rodelas.",
+      "3. Monte em camadas com cebola caramelizada.",
+      "4. Leve ao forno e decore com ovos e azeitonas."
+    ],
+    "Regiao": "Porto",
+    "Notas": "Regar com azeite antes de servir."
+  },
+
+  {
+    "id": 12,
+    "Nome": "Massada de Peixe",
+    "Categoria": "Peixe",
+    "Dificuldade": "Média",
+    "Tempo": "50 min",
+    "Ingredientes": [
+      "400g de massa esparguete",
+      "300g de peixe misto",
+      "2 tomates",
+      "1 pimento",
+      "Alho, vinho branco",
+      "Coentros"
+    ],
+    "ModoPreparo": [
+      "1. Cozinhe a massa al dente.",
+      "2. Prepare um refogado com os temperos e o peixe.",
+      "3. Misture tudo e finalize com coentros."
+    ],
+    "Regiao": "Norte",
+    "Notas": "Acompanhar com vinho branco."
+  },
+
+  {
+    "id": 13,
+    "Nome": "Robalo Grelhado",
+    "Categoria": "Peixe",
+    "Dificuldade": "Fácil",
+    "Tempo": "25 min",
+    "Ingredientes": [
+      "4 postas de robalo",
+      "Limão",
+      "Sal, pimenta",
+      "Azeite",
+      "Batata doce assada"
+    ],
+    "ModoPreparo": [
+      "1. Tempere o peixe com sal, pimenta e limão.",
+      "2. Grelhe 4-5 minutos de cada lado.",
+      "3. Regue com azeite e sirva com batata doce."
+    ],
+    "Regiao": "Litoral",
+    "Notas": "Servir com legumes salteados."
+  },
+
+  {
+    "id": 14,
+    "Nome": "Cataplana de Peixe",
+    "Categoria": "Peixe",
+    "Dificuldade": "Média",
+    "Tempo": "1h",
+    "Ingredientes": [
+      "500g de peixe misto",
+      "2 chocos",
+      "1 pimento verde",
+      "2 tomates",
+      "Vinho branco",
+      "Coentros"
+    ],
+    "ModoPreparo": [
+      "1. Disponha todos os ingredientes na cataplana.",
+      "2. Adicione vinho branco e cozinhe em lume brando.",
+      "3. Finalize com coentros frescos."
+    ],
+    "Regiao": "Algarve",
+    "Notas": "Cozinhar na panela de cobre tradicional."
+  },
+
+  {
+    "id": 15,
+    "Nome": "Pescada à Lisboeta",
+    "Categoria": "Peixe",
+    "Dificuldade": "Média",
+    "Tempo": "45 min",
+    "Ingredientes": [
+      "4 postas de pescada",
+      "200g de camarão",
+      "2 cebolas",
+      "1 dl de vinho branco",
+      "Azeite, salsa"
+    ],
+    "ModoPreparo": [
+      "1. Refogue a cebola e junte o peixe.",
+      "2. Acrescente o vinho e os camarões.",
+      "3. Cozinhe em lume brando e finalize com salsa."
+    ],
+    "Regiao": "Lisboa",
+    "Notas": "Acompanhar com batata cozida."
+  },
+
+  {
+    "id": 16,
+    "Nome": "Cozido à Portuguesa",
+    "Categoria": "Carne",
+    "Dificuldade": "Difícil",
+    "Tempo": "3h",
+    "Ingredientes": [
+      "300g de carne de vaca",
+      "300g de frango",
+      "300g de carne de porco",
+      "2 chouriços",
+      "2 morcelas",
+      "Couve, cenoura, batata"
+    ],
+    "ModoPreparo": [
+      "1. Cozinhe as carnes em água com sal.",
+      "2. Adicione os enchidos e legumes.",
+      "3. Sirva com arroz separado."
+    ],
+    "Regiao": "Nacional",
+    "Notas": "Tradicional em dias frios."
+  },
+
+  {
+    "id": 17,
     "Nome": "Francesinha",
     "Categoria": "Carne",
     "Dificuldade": "Média",
     "Tempo": "1h",
-    "Ingredientes": ["2 fatias de pão", "1 linguiça", "1 bife de vaca", "queijo derretido"],
-    "ModoPreparo": ["1. Monte o sanduíche.", "2. Cubra com queijo e leve ao forno."],
-    "Regiao": "Porto"
+    "Ingredientes": [
+      "2 fatias de pão de forma",
+      "1 bife de vaca",
+      "1 linguiça",
+      "1 salsicha fresca",
+      "Queijo derretido",
+      "Molho de cerveja e tomate"
+    ],
+    "ModoPreparo": [
+      "1. Monte o sanduíche em camadas.",
+      "2. Cubra com queijo e leve ao forno.",
+      "3. Regue com molho quente."
+    ],
+    "Regiao": "Porto",
+    "Notas": "Acompanhar com batatas fritas."
+  },
+
+  {
+    "id": 18,
+    "Nome": "Leitão da Bairrada",
+    "Categoria": "Carne",
+    "Dificuldade": "Difícil",
+    "Tempo": "4h",
+    "Ingredientes": [
+      "1 leitão (5-6kg)",
+      "Sal grosso",
+      "Alho",
+      "Banha",
+      "Pimenta branca"
+    ],
+    "ModoPreparo": [
+      "1. Tempere o leitão com alho e sal.",
+      "2. Asse em forno forte até dourar.",
+      "3. Regue com a própria gordura."
+    ],
+    "Regiao": "Bairrada",
+    "Notas": "Crosta deve ficar crocante."
+  },
+
+  {
+    "id": 19,
+    "Nome": "Feijoada à Transmontana",
+    "Categoria": "Carne",
+    "Dificuldade": "Média",
+    "Tempo": "2h30",
+    "Ingredientes": [
+      "300g de feijão encarnado",
+      "200g de carne de porco",
+      "1 chouriço",
+      "1 morcela",
+      "Couve-galega"
+    ],
+    "ModoPreparo": [
+      "1. Cozinhe o feijão com as carnes.",
+      "2. Adicione os enchidos no final.",
+      "3. Sirva com couve cozida."
+    ],
+    "Regiao": "Trás-os-Montes",
+    "Notas": "Deixar repousar antes de servir."
+  },
+
+  {
+    "id": 20,
+    "Nome": "Alheira de Mirandela",
+    "Categoria": "Carne",
+    "Dificuldade": "Fácil",
+    "Tempo": "20 min",
+    "Ingredientes": [
+      "2 alheiras",
+      "Batata palha",
+      "Ovo estrelado",
+      "Couve lombarda"
+    ],
+    "ModoPreparo": [
+      "1. Frite as alheiras em azeite.",
+      "2. Sirva com ovo estrelado e batata palha."
+    ],
+    "Regiao": "Trás-os-Montes",
+    "Notas": "Acompanhar com grelos."
+  },
+
+  {
+    "id": 21,
+    "Nome": "Arroz de Pato",
+    "Categoria": "Carne",
+    "Dificuldade": "Média",
+    "Tempo": "2h",
+    "Ingredientes": [
+      "1 pato",
+      "300g de arroz",
+      "1 chouriço",
+      "2 tomates",
+      "Vinho tinto"
+    ],
+    "ModoPreparo": [
+      "1. Cozinhe o pato e desfie a carne.",
+      "2. Prepare o arroz no caldo do pato.",
+      "3. Monte em camadas e leve ao forno."
+    ],
+    "Regiao": "Alentejo",
+    "Notas": "Gratinar com fatias de chouriço."
+  },
+
+  {
+    "id": 22,
+    "Nome": "Bife à Portuguesa",
+    "Categoria": "Carne",
+    "Dificuldade": "Fácil",
+    "Tempo": "25 min",
+    "Ingredientes": [
+      "4 bifes de vaca",
+      "4 ovos",
+      "4 fatias de presunto",
+      "Manteiga",
+      "Vinho branco"
+    ],
+    "ModoPreparo": [
+      "1. Frite os bifes em manteiga.",
+      "2. Adicione o vinho e reduza o molho.",
+      "3. Cubra com ovo estrelado e presunto."
+    ],
+    "Regiao": "Nacional",
+    "Notas": "Servir com batatas fritas."
+  },
+
+  {
+    "id": 23,
+    "Nome": "Chanfana",
+    "Categoria": "Carne",
+    "Dificuldade": "Difícil",
+    "Tempo": "4h",
+    "Ingredientes": [
+      "1,5kg de cabrito",
+      "1L de vinho tinto",
+      "6 dentes de alho",
+      "Colorau",
+      "Louro"
+    ],
+    "ModoPreparo": [
+      "1. Marine o cabrito no vinho com alho.",
+      "2. Cozinhe em lume brando por 3 horas."
+    ],
+    "Regiao": "Beira",
+    "Notas": "Servir com batata cozida."
+  },
+
+  {
+    "id": 24,
+    "Nome": "Rojões à Minhota",
+    "Categoria": "Carne",
+    "Dificuldade": "Média",
+    "Tempo": "1h30",
+    "Ingredientes": [
+      "800g de carne de porco",
+      "3 batatas",
+      "1 cebola",
+      "Alho",
+      "Vinho verde"
+    ],
+    "ModoPreparo": [
+      "1. Corte a carne em cubos e tempere.",
+      "2. Frite com a cebola e o alho.",
+      "3. Adicione o vinho e cozinhe até ficar macio."
+    ],
+    "Regiao": "Minho",
+    "Notas": "Acompanhar com arroz de sarrabulho."
+  },
+
+  {
+    "id": 25,
+    "Nome": "Cabidela",
+    "Categoria": "Carne",
+    "Dificuldade": "Média",
+    "Tempo": "1h45",
+    "Ingredientes": [
+      "1 galinha",
+      "300g de arroz",
+      "Vinho branco",
+      "Sangue da galinha",
+      "Vinagre"
+    ],
+    "ModoPreparo": [
+      "1. Cozinhe a galinha e reserve o sangue.",
+      "2. Prepare o arroz no caldo.",
+      "3. Junte o sangue temperado com vinagre."
+    ],
+    "Regiao": "Norte",
+    "Notas": "Servir muito quente."
+  },
+
+  {
+    "id": 26,
+    "Nome": "Espetada da Madeira",
+    "Categoria": "Carne",
+    "Dificuldade": "Fácil",
+    "Tempo": "1h",
+    "Ingredientes": [
+      "800g de carne de vaca",
+      "Sal grosso",
+      "Alho",
+      "Louro",
+      "Manteiga de alho"
+    ],
+    "ModoPreparo": [
+      "1. Corte a carne em cubos e tempere.",
+      "2. Espete nos espetos de louro.",
+      "3. Grelhe na brasa."
+    ],
+    "Regiao": "Madeira",
+    "Notas": "Servir com milho frito."
+  },
+
+  {
+    "id": 27,
+    "Nome": "Sopa da Pedra",
+    "Categoria": "Carne",
+    "Dificuldade": "Média",
+    "Tempo": "2h",
+    "Ingredientes": [
+      "200g de feijão encarnado",
+      "1 chouriço",
+      "1 morcela",
+      "Batata, cenoura",
+      "Couve portuguesa"
+    ],
+    "ModoPreparo": [
+      "1. Cozinhe o feijão com os enchidos.",
+      "2. Adicione os legumes aos poucos.",
+      "3. Sirva com pão caseiro."
+    ],
+    "Regiao": "Ribatejo",
+    "Notas": "Tradicionalmente feita com uma pedra no fundo."
+  },
+
+  {
+    "id": 28,
+    "Nome": "Tripas à Moda do Porto",
+    "Categoria": "Carne",
+    "Dificuldade": "Difícil",
+    "Tempo": "3h",
+    "Ingredientes": [
+      "500g de dobrada",
+      "200g de feijão branco",
+      "1 chouriço",
+      "1 farinheira",
+      "Cenoura, cebola"
+    ],
+    "ModoPreparo": [
+      "1. Cozinhe a dobrada em água com vinho.",
+      "2. Junte os enchidos e o feijão.",
+      "3. Deixe apurar o molho."
+    ],
+    "Regiao": "Porto",
+    "Notas": "Servir com arroz branco."
+  },
+
+  {
+    "id": 29,
+    "Nome": "Lombo de Porco com Amêijoas",
+    "Categoria": "Carne",
+    "Dificuldade": "Média",
+    "Tempo": "1h15",
+    "Ingredientes": [
+      "600g de lombo de porco",
+      "500g de amêijoas",
+      "4 dentes de alho",
+      "Vinho branco",
+      "Coentros"
+    ],
+    "ModoPreparo": [
+      "1. Frite o lombo temperado.",
+      "2. Adicione as amêijoas e o vinho.",
+      "3. Finalize com coentros."
+    ],
+    "Regiao": "Setúbal",
+    "Notas": "Acompanhar com batata a murro."
+  },
+
+  {
+    "id": 30,
+    "Nome": "Sarrabulho",
+    "Categoria": "Carne",
+    "Dificuldade": "Difícil",
+    "Tempo": "2h",
+    "Ingredientes": [
+      "500g de carne de porco",
+      "200g de sangue de porco",
+      "Vinho tinto",
+      "Cominhos",
+      "Pão de milho"
+    ],
+    "ModoPreparo": [
+      "1. Cozinhe a carne com os temperos.",
+      "2. Adicione o sangue aos poucos.",
+      "3. Sirva sobre fatias de pão."
+    ],
+    "Regiao": "Minho",
+    "Notas": "Temperar com vinagre a gosto."
+  },
+
+  {
+    "id": 31,
+    "Nome": "Caldo Verde",
+    "Categoria": "Sopa",
+    "Dificuldade": "Fácil",
+    "Tempo": "40 min",
+    "Ingredientes": [
+      "4 batatas",
+      "1 couve-galega",
+      "1 chouriço",
+      "1L de água",
+      "Azeite"
+    ],
+    "ModoPreparo": [
+      "1. Cozinhe as batatas e triture.",
+      "2. Adicione a couve cortada fina.",
+      "3. Sirva com rodelas de chouriço."
+    ],
+    "Regiao": "Norte",
+    "Notas": "Acompanhar com broa de milho."
+  },
+
+  {
+    "id": 32,
+    "Nome": "Sopa de Cação",
+    "Categoria": "Sopa",
+    "Dificuldade": "Média",
+    "Tempo": "50 min",
+    "Ingredientes": [
+      "500g de cação",
+      "3 batatas",
+      "2 ovos",
+      "Alho, coentros",
+      "Pão caseiro"
+    ],
+    "ModoPreparo": [
+      "1. Cozinhe o peixe com os temperos.",
+      "2. Adicione os ovos batidos no final.",
+      "3. Sirva sobre fatias de pão."
+    ],
+    "Regiao": "Alentejo",
+    "Notas": "Temperar com vinagre."
+  },
+
+  {
+    "id": 33,
+    "Nome": "Canja de Galinha",
+    "Categoria": "Sopa",
+    "Dificuldade": "Fácil",
+    "Tempo": "1h",
+    "Ingredientes": [
+      "1 galinha",
+      "200g de arroz",
+      "1 cebola",
+      "Hortelã",
+      "Limão"
+    ],
+    "ModoPreparo": [
+      "1. Cozinhe a galinha e retire a carne.",
+      "2. Prepare o caldo com o arroz.",
+      "3. Adicione a carne desfiada."
+    ],
+    "Regiao": "Nacional",
+    "Notas": "Servir com gotas de limão."
+  },
+
+  {
+    "id": 34,
+    "Nome": "Sopa de Feijão com Couve",
+    "Categoria": "Sopa",
+    "Dificuldade": "Fácil",
+    "Tempo": "1h15",
+    "Ingredientes": [
+      "300g de feijão encarnado",
+      "1 couve-portuguesa",
+      "1 chouriço",
+      "Batata, cenoura"
+    ],
+    "ModoPreparo": [
+      "1. Cozinhe o feijão com os legumes.",
+      "2. Adicione a couve picada.",
+      "3. Sirva com pão de centeio."
+    ],
+    "Regiao": "Beira",
+    "Notas": "Temperar com azeite cru."
+  },
+
+  {
+    "id": 35,
+    "Nome": "Açorda Alentejana",
+    "Categoria": "Sopa",
+    "Dificuldade": "Fácil",
+    "Tempo": "30 min",
+    "Ingredientes": [
+      "200g de pão alentejano",
+      "4 dentes de alho",
+      "1,5L de água",
+      "Coentros",
+      "Ovo escalfado"
+    ],
+    "ModoPreparo": [
+      "1. Ferva água com alho e sal.",
+      "2. Adicione o pão aos poucos.",
+      "3. Finalize com ovo e coentros."
+    ],
+    "Regiao": "Alentejo",
+    "Notas": "Regar com azeite virgem."
+  },
+
+  {
+    "id": 36,
+    "Nome": "Sopa de Tomate com Ovo Escalfado",
+    "Categoria": "Sopa",
+    "Dificuldade": "Fácil",
+    "Tempo": "35 min",
+    "Ingredientes": [
+      "6 tomates maduros",
+      "1 cebola",
+      "2 ovos",
+      "Manjericão",
+      "Pão torrado"
+    ],
+    "ModoPreparo": [
+      "1. Refogue tomate e cebola.",
+      "2. Adicione água e deixe ferver.",
+      "3. Escalfe os ovos diretamente na sopa."
+    ],
+    "Regiao": "Ribatejo",
+    "Notas": "Servir com manjericão fresco."
+  },
+
+  {
+    "id": 37,
+    "Nome": "Sopa de Grão",
+    "Categoria": "Sopa",
+    "Dificuldade": "Fácil",
+    "Tempo": "1h",
+    "Ingredientes": [
+      "300g de grão-de-bico",
+      "1 chouriço",
+      "Batata, cenoura",
+      "Hortelã"
+    ],
+    "ModoPreparo": [
+      "1. Cozinhe o grão com os legumes.",
+      "2. Adicione o chouriço no final.",
+      "3. Sirva com hortelã picada."
+    ],
+    "Regiao": "Alentejo",
+    "Notas": "Temperar com cominhos."
+  },
+
+  {
+    "id": 38,
+    "Nome": "Sopa de Pedra",
+    "Categoria": "Sopa",
+    "Dificuldade": "Média",
+    "Tempo": "2h",
+    "Ingredientes": [
+      "200g de feijão encarnado",
+      "1 chouriço",
+      "1 morcela",
+      "Batata, cenoura",
+      "Couve portuguesa"
+    ],
+    "ModoPreparo": [
+      "1. Cozinhe o feijão com os enchidos.",
+      "2. Adicione os legumes aos poucos.",
+      "3. Sirva com pão caseiro."
+    ],
+    "Regiao": "Ribatejo",
+    "Notas": "Tradicionalmente feita com uma pedra no fundo."
+  },
+
+  {
+    "id": 39,
+    "Nome": "Sopa de Castanhas",
+    "Categoria": "Sopa",
+    "Dificuldade": "Média",
+    "Tempo": "1h15",
+    "Ingredientes": [
+      "300g de castanhas piladas",
+      "1 cebola",
+      "1 batata-doce",
+      "Azeite, noz-moscada"
+    ],
+    "ModoPreparo": [
+      "1. Cozinhe as castanhas com os legumes.",
+      "2. Triture até obter um creme.",
+      "3. Tempere com noz-moscada."
+    ],
+    "Regiao": "Interior Norte",
+    "Notas": "Servir com torradas."
+  },
+
+  {
+    "id": 40,
+    "Nome": "Sopa de Peixe",
+    "Categoria": "Sopa",
+    "Dificuldade": "Média",
+    "Tempo": "1h",
+    "Ingredientes": [
+      "500g de peixe misto",
+      "2 batatas",
+      "1 cebola",
+      "1 tomate",
+      "Coentros"
+    ],
+    "ModoPreparo": [
+      "1. Cozinhe o peixe com os legumes.",
+      "2. Retire as espinhas e desfaça o peixe.",
+      "3. Finalize com coentros picados."
+    ],
+    "Regiao": "Litoral",
+    "Notas": "Acompanhar com pão alentejano."
+  },
+
+  {
+    "id": 41,
+    "Nome": "Pastéis de Nata",
+    "Categoria": "Sobremesa",
+    "Dificuldade": "Difícil",
+    "Tempo": "1h30",
+    "Ingredientes": [
+      "1 folha de massa folhada",
+      "250ml de leite",
+      "150g de açúcar",
+      "3 gemas",
+      "Canela"
+    ],
+    "ModoPreparo": [
+      "1. Prepare o creme com leite, açúcar e gemas.",
+      "2. Forre forminhas com a massa.",
+      "3. Asse a 200°C até dourar."
+    ],
+    "Regiao": "Lisboa",
+    "Notas": "Polvilhar com canela em pó."
+  },
+
+  {
+    "id": 42,
+    "Nome": "Arroz Doce",
+    "Categoria": "Sobremesa",
+    "Dificuldade": "Fácil",
+    "Tempo": "1h",
+    "Ingredientes": [
+      "200g de arroz",
+      "1L de leite",
+      "150g de açúcar",
+      "1 casca de limão",
+      "Canela"
+    ],
+    "ModoPreparo": [
+      "1. Cozinhe o arroz no leite com a casca de limão.",
+      "2. Adicione o açúcar e mexa até engrossar.",
+      "3. Sirva frio com canela."
+    ],
+    "Regiao": "Nacional",
+    "Notas": "Decorar com canela em pó."
+  },
+
+  {
+    "id": 43,
+    "Nome": "Leite Creme",
+    "Categoria": "Sobremesa",
+    "Dificuldade": "Média",
+    "Tempo": "1h",
+    "Ingredientes": [
+      "500ml de leite",
+      "6 gemas",
+      "150g de açúcar",
+      "1 casca de limão"
+    ],
+    "ModoPreparo": [
+      "1. Ferva o leite com a casca de limão.",
+      "2. Misture as gemas e o açúcar.",
+      "3. Leve ao forno em banho-maria."
+    ],
+    "Regiao": "Nacional",
+    "Notas": "Caramelizar o açúcar no final."
+  },
+
+  {
+    "id": 44,
+    "Nome": "Pudim Abade de Priscos",
+    "Categoria": "Sobremesa",
+    "Dificuldade": "Difícil",
+    "Tempo": "2h",
+    "Ingredientes": [
+      "12 gemas",
+      "300g de açúcar",
+      "1L de água",
+      "Vinho do Porto",
+      "Toucinho do céu"
+    ],
+    "ModoPreparo": [
+      "1. Prepare uma calda com açúcar e água.",
+      "2. Misture as gemas e o vinho do Porto.",
+      "3. Cozinhe em banho-maria."
+    ],
+    "Regiao": "Braga",
+    "Notas": "Servir bem frio."
+  },
+
+  {
+    "id": 45,
+    "Nome": "Bolo Rei",
+    "Categoria": "Sobremesa",
+    "Dificuldade": "Difícil",
+    "Tempo": "3h",
+    "Ingredientes": [
+      "500g de farinha",
+      "100g de açúcar",
+      "200g de frutas cristalizadas",
+      "Fermento",
+      "Manteiga"
+    ],
+    "ModoPreparo": [
+      "1. Prepare a massa e deixe levedar.",
+      "2. Adicione as frutas cristalizadas.",
+      "3. Asse em forno médio."
+    ],
+    "Regiao": "Nacional",
+    "Notas": "Tradicional no Natal."
+  },
+
+  {
+    "id": 46,
+    "Nome": "Bolo de Bolacha",
+    "Categoria": "Sobremesa",
+    "Dificuldade": "Fácil",
+    "Tempo": "30 min",
+    "Ingredientes": [
+      "300g de bolacha maria",
+      "200ml de café forte",
+      "200g de manteiga",
+      "200g de açúcar",
+      "Chocolate em pó"
+    ],
+    "ModoPreparo": [
+      "1. Molhe as bolachas no café.",
+      "2. Monte em camadas com creme de manteiga e açúcar.",
+      "3. Leve à geladeira por 2 horas."
+    ],
+    "Regiao": "Nacional",
+    "Notas": "Polvilhar com chocolate antes de servir."
+  },
+
+  {
+    "id": 47,
+    "Nome": "Sericaia",
+    "Categoria": "Sobremesa",
+    "Dificuldade": "Média",
+    "Tempo": "1h30",
+    "Ingredientes": [
+      "6 ovos",
+      "200g de açúcar",
+      "200g de farinha",
+      "1L de leite",
+      "Canela"
+    ],
+    "ModoPreparo": [
+      "1. Bata os ovos com o açúcar.",
+      "2. Adicione a farinha e o leite aos poucos.",
+      "3. Asse em forno médio até dourar."
+    ],
+    "Regiao": "Alentejo",
+    "Notas": "Servir com ameixa de Elvas."
+  },
+
+  {
+    "id": 48,
+    "Nome": "Toucinho do Céu",
+    "Categoria": "Sobremesa",
+    "Dificuldade": "Média",
+    "Tempo": "1h15",
+    "Ingredientes": [
+      "12 gemas",
+      "300g de açúcar",
+      "200g de amêndoa moída",
+      "1 casca de limão"
+    ],
+    "ModoPreparo": [
+      "1. Prepare uma calda de açúcar.",
+      "2. Misture as gemas e a amêndoa.",
+      "3. Asse em banho-maria."
+    ],
+    "Regiao": "Norte",
+    "Notas": "Tradicional em festas religiosas."
+  },
+
+  {
+    "id": 49,
+    "Nome": "Pão de Ló",
+    "Categoria": "Sobremesa",
+    "Dificuldade": "Média",
+    "Tempo": "1h",
+    "Ingredientes": [
+      "6 ovos",
+      "200g de açúcar",
+      "200g de farinha",
+      "1 colher de chá de fermento"
+    ],
+    "ModoPreparo": [
+      "1. Bata os ovos com o açúcar até triplicar de volume.",
+      "2. Adicione a farinha e o fermento delicadamente.",
+      "3. Asse em forno médio por 30 minutos."
+    ],
+    "Regiao": "Ovar",
+    "Notas": "Não desenformar quente."
+  },
+
+  {
+    "id": 50,
+    "Nome": "Folar da Páscoa",
+    "Categoria": "Sobremesa",
+    "Dificuldade": "Difícil",
+    "Tempo": "2h30",
+    "Ingredientes": [
+      "500g de farinha",
+      "100g de açúcar",
+      "3 ovos",
+      "Canela",
+      "Manteiga"
+    ],
+    "ModoPreparo": [
+      "1. Prepare a massa e deixe levedar.",
+      "2. Modele o folar com os ovos no centro.",
+      "3. Asse em forno médio até dourar."
+    ],
+    "Regiao": "Trás-os-Montes",
+    "Notas": "Decorar com ovos cozidos."
+  },
+
+  {
+    "id": 51,
+    "Nome": "Queijadas de Sintra",
+    "Categoria": "Sobremesa",
+    "Dificuldade": "Média",
+    "Tempo": "1h",
+    "Ingredientes": [
+      "200g de queijo fresco",
+      "200g de açúcar",
+      "3 ovos",
+      "Canela",
+      "Massa tenra"
+    ],
+    "ModoPreparo": [
+      "1. Misture o queijo com o açúcar e os ovos.",
+      "2. Forre forminhas com a massa e recheie.",
+      "3. Asse até dourar."
+    ],
+    "Regiao": "Sintra",
+    "Notas": "Polvilhar com canela."
+  },
+
+  {
+    "id": 52,
+    "Nome": "Ovos Moles",
+    "Categoria": "Sobremesa",
+    "Dificuldade": "Difícil",
+    "Tempo": "1h30",
+    "Ingredientes": [
+      "12 gemas",
+      "300g de açúcar",
+      "Água",
+      "Massa de hóstia"
+    ],
+    "ModoPreparo": [
+      "1. Prepare uma calda de açúcar.",
+      "2. Adicione as gemas e cozinhe em banho-maria.",
+      "3. Envolva em massa de hóstia."
+    ],
+    "Regiao": "Aveiro",
+    "Notas": "Tradicional em barricas de madeira."
+  },
+
+  {
+    "id": 53,
+    "Nome": "Brisas do Lis",
+    "Categoria": "Sobremesa",
+    "Dificuldade": "Média",
+    "Tempo": "1h15",
+    "Ingredientes": [
+      "200g de amêndoa moída",
+      "200g de açúcar",
+      "3 claras",
+      "Raspa de limão"
+    ],
+    "ModoPreparo": [
+      "1. Misture todos os ingredientes.",
+      "2. Molde em formato de meia-lua.",
+      "3. Asse em forno brando."
+    ],
+    "Regiao": "Leiria",
+    "Notas": "Polvilhar com açúcar em pó."
+  },
+
+  {
+    "id": 54,
+    "Nome": "Dom Rodrigo",
+    "Categoria": "Sobremesa",
+    "Dificuldade": "Média",
+    "Tempo": "1h",
+    "Ingredientes": [
+      "12 gemas",
+      "200g de açúcar",
+      "100g de amêndoa",
+      "Canela"
+    ],
+    "ModoPreparo": [
+      "1. Prepare fios de ovos com as gemas.",
+      "2. Misture com açúcar e amêndoa.",
+      "3. Enrole em papel de seda."
+    ],
+    "Regiao": "Algarve",
+    "Notas": "Decorar com canela em pó."
+  },
+
+  {
+    "id": 55,
+    "Nome": "Torta de Azeitão",
+    "Categoria": "Sobremesa",
+    "Dificuldade": "Difícil",
+    "Tempo": "2h",
+    "Ingredientes": [
+      "300g de massa folhada",
+      "200g de doce de ovos",
+      "Açúcar em pó",
+      "Canela"
+    ],
+    "ModoPreparo": [
+      "1. Abra a massa em retângulos finos.",
+      "2. Recheie com doce de ovos e enrole.",
+      "3. Asse até dourar."
+    ],
+    "Regiao": "Azeitão",
+    "Notas": "Polvilhar com açúcar e canela."
+  },
+
+  {
+    "id": 56,
+    "Nome": "Bolo de Ananás",
+    "Categoria": "Sobremesa",
+    "Dificuldade": "Média",
+    "Tempo": "1h30",
+    "Ingredientes": [
+      "300g de farinha",
+      "200g de açúcar",
+      "1 ananás fresco",
+      "3 ovos",
+      "Fermento"
+    ],
+    "ModoPreparo": [
+      "1. Bata os ovos com o açúcar.",
+      "2. Adicione o ananás picado e a farinha.",
+      "3. Asse em forma untada."
+    ],
+    "Regiao": "Açores",
+    "Notas": "Decorar com rodelas de ananás."
+  },
+
+  {
+    "id": 57,
+    "Nome": "Filhós",
+    "Categoria": "Sobremesa",
+    "Dificuldade": "Média",
+    "Tempo": "1h",
+    "Ingredientes": [
+      "500g de farinha",
+      "200g de abóbora cozida",
+      "3 ovos",
+      "Açúcar e canela"
+    ],
+    "ModoPreparo": [
+      "1. Misture todos os ingredientes.",
+      "2. Frite colheradas da massa em óleo quente.",
+      "3. Polvilhe com açúcar e canela."
+    ],
+    "Regiao": "Nacional",
+    "Notas": "Tradicional no Carnaval."
+  },
+
+  {
+    "id": 58,
+    "Nome": "Azevias",
+    "Categoria": "Sobremesa",
+    "Dificuldade": "Difícil",
+    "Tempo": "2h",
+    "Ingredientes": [
+      "300g de grão-de-bico cozido",
+      "200g de açúcar",
+      "Raspa de laranja",
+      "Massa: farinha e água"
+    ],
+    "ModoPreparo": [
+      "1. Prepare o recheio com grão moído e açúcar.",
+      "2. Modele discos com a massa e recheie.",
+      "3. Frite em óleo quente."
+    ],
+    "Regiao": "Alentejo",
+    "Notas": "Tradicional no Natal."
+  },
+
+  {
+    "id": 59,
+    "Nome": "Cavacas",
+    "Categoria": "Sobremesa",
+    "Dificuldade": "Média",
+    "Tempo": "1h",
+    "Ingredientes": [
+      "300g de farinha",
+      "200g de açúcar",
+      "3 ovos",
+      "Raspa de limão"
+    ],
+    "ModoPreparo": [
+      "1. Bata os ovos com o açúcar até esbranquiçar.",
+      "2. Adicione a farinha e a raspa de limão.",
+      "3. Asse em colheradas até ficarem douradas."
+    ],
+    "Regiao": "Norte",
+    "Notas": "Servir frias."
+  },
+
+  {
+    "id": 60,
+    "Nome": "Morgado",
+    "Categoria": "Sobremesa",
+    "Dificuldade": "Difícil",
+    "Tempo": "2h",
+    "Ingredientes": [
+      "200g de figo seco",
+      "200g de amêndoa",
+      "150g de açúcar",
+      "Canela",
+      "Aguardente"
+    ],
+    "ModoPreparo": [
+      "1. Moa os figos e as amêndoas.",
+      "2. Misture com os demais ingredientes.",
+      "3. Modele em formas pequenas e deixe secar."
+    ],
+    "Regiao": "Algarve",
+    "Notas": "Conservar em local seco."
   }
 ]
