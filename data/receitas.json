@@ -5,9 +5,18 @@
     "Categoria": "Peixe",
     "Dificuldade": "Média",
     "Tempo": "40 min",
-    "Ingredientes": ["400g bacalhau", "500g batata palha"],
-    "ModoPreparo": ["1. Refogue cebola...", "2. Adicione bacalhau..."],
+    "Ingredientes": ["400g bacalhau", "500g batata palha", "6 ovos"],
+    "ModoPreparo": ["1. Refogue cebola e alho.", "2. Adicione o bacalhau desfiado."],
     "Regiao": "Lisboa"
+  },
+  {
+    "id": 2,
+    "Nome": "Francesinha",
+    "Categoria": "Carne",
+    "Dificuldade": "Média",
+    "Tempo": "1h",
+    "Ingredientes": ["2 fatias de pão", "1 linguiça", "1 bife de vaca", "queijo derretido"],
+    "ModoPreparo": ["1. Monte o sanduíche.", "2. Cubra com queijo e leve ao forno."],
+    "Regiao": "Porto"
   }
-  // ... (todas as receitas)
 ]
